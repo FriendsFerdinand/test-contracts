@@ -1,0 +1,30 @@
+[project]
+name = "test-call"
+
+[[project.requirements]]
+contract_id = "SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard"
+
+[[project.requirements]]
+contract_id = "SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.citycoin-vrf"
+
+[[project.requirements]]
+contract_id = "SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.citycoin-core-trait"
+
+[[project.requirements]]
+contract_id = "SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.citycoin-token-trait"
+
+[[project.requirements]]
+contract_id ="SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.miamicoin-auth"
+
+[[project.requirements]]
+contract_id = "SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.miamicoin-token"
+
+[[project.requirements]]
+contract_id = "SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.miamicoin-core-v1"
+
+[[project.requirements]]
+contract_id = "SP343J7DNE122AVCSC4HEK4MF871PW470ZSXJ5K66.miamipool-v1"
+
+[contracts.test-call]
+path = "contracts/test-call.clar"
+depends_on = []
